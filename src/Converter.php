@@ -16,8 +16,6 @@ class Converter {
     protected $bin = "pdftotext";
     protected $options = [
 //        "-raw",
-        "-f","3",
-        "-l","3",
         "-q",
     ];
     protected $process;
@@ -32,6 +30,10 @@ class Converter {
         $command = array_merge(
             [ $this->bin ],
             $this->options,
+            [
+                "-f",$page,
+                "-l",$page,
+            ],
             [ $path, "-" ]
         );
         $process = new Process( $command );
