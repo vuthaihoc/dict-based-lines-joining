@@ -1,0 +1,20 @@
+{
+    "name": "hocvt/pdftotext",
+    "authors": [
+        {
+            "name": "Vu Thai Hoc",
+            "email": "vuthaihoc.ttud@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HocVT\\PdfToText\\" : "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "symfony/dom-crawler": "^5.0",
+        "illuminate/support": "^7.3",
+        "symfony/process": "^5.0"
+    }
+}
