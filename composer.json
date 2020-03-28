@@ -16,7 +16,8 @@
         "symfony/dom-crawler": "^5.0",
         "illuminate/support": "^7.3",
         "symfony/process": "^5.0",
-        "symfony/css-selector": "^5.0"
+        "symfony/css-selector": "^5.0",
+        "ext-dom": "*"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.0"
